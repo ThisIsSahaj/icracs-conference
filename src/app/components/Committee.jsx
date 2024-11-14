@@ -1,23 +1,25 @@
+
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
+
 const committeeMembers = {
   "General Chairs": [
-    { name: "Dr. Jane Smith", role: "Professor, Tech University", image: "/placeholder.svg?height=100&width=100&text=JS" },
-    { name: "Prof. John Doe", role: "Director, Institute of AI", image: "/placeholder.svg?height=100&width=100&text=JD" },
+    { name: "Dr. Jane Smith", role: "Professor, Tech University", image: "/?height=100&width=100&text=JS" },
+    { name: "Prof. John Doe", role: "Director, Institute of AI", image: "/?height=100&width=100&text=JD" },
   ],
   "Program Committee": [
-    { name: "Dr. Emily Johnson", role: "Associate Professor, Data Science", image: "/placeholder.svg?height=100&width=100&text=EJ" },
-    { name: "Dr. Michael Chen", role: "Senior Researcher, AI Ethics", image: "/placeholder.svg?height=100&width=100&text=MC" },
-    { name: "Prof. Sarah Williams", role: "Head of Computer Vision Lab", image: "/placeholder.svg?height=100&width=100&text=SW" },
+    { name: "Dr. Emily Johnson", role: "Associate Professor, Data Science", image: "/?height=100&width=100&text=EJ" },
+    { name: "Dr. Michael Chen", role: "Senior Researcher, AI Ethics", image: "/?height=100&width=100&text=MC" },
+    { name: "Prof. Sarah Williams", role: "Head of Computer Vision Lab", image: "/?height=100&width=100&text=SW" },
   ],
   "Organizing Committee": [
-    { name: "Dr. Robert Lee", role: "Conference Manager", image: "/placeholder.svg?height=100&width=100&text=RL" },
-    { name: "Ms. Laura Martinez", role: "Communications Director", image: "/placeholder.svg?height=100&width=100&text=LM" },
-    { name: "Mr. David Wilson", role: "Sponsorship Coordinator", image: "/placeholder.svg?height=100&width=100&text=DW" },
+    { name: "Dr. Robert Lee", role: "Conference Manager", image: "/?height=100&width=100&text=RL" },
+    { name: "Ms. Laura Martinez", role: "Communications Director", image: "/?height=100&width=100&text=LM" },
+    { name: "Mr. David Wilson", role: "Sponsorship Coordinator", image: "?height=100&width=100&text=DW" },
   ],
 }
 
