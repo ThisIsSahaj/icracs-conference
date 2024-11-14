@@ -57,22 +57,32 @@ export default function RootLayout({ children }) {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about" className="text-blue-600 hover:text-blue-800">
+                  <Link href="#about" className="text-blue-600 hover:text-blue-800">
                     About
                   </Link>
                 </li>
                 <li>
-                  <Link href="/speakers" className="text-blue-600 hover:text-blue-800">
+                  <Link href="#speakers" className="text-blue-600 hover:text-blue-800">
                     Speakers
                   </Link>
                 </li>
                 <li>
-                  <Link href="/schedule" className="text-blue-600 hover:text-blue-800">
+                  <Link href="#schedule" className="text-blue-600 hover:text-blue-800">
                     Schedule
                   </Link>
                 </li>
                 <li>
-                  <Link href="/schedule" className="text-blue-600 hover:text-blue-800">
+                  <Link href="#callforpaper" className="text-blue-600 hover:text-blue-800">
+                 CallforPaper
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#sponsor" className="text-blue-600 hover:text-blue-800">
+                    Sponsor
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/organizing" className="text-blue-600 hover:text-blue-800">
                   Organizing Committiees
                   </Link>
                 </li>
@@ -82,7 +92,7 @@ export default function RootLayout({ children }) {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/contact" className="text-blue-600 hover:text-blue-800">
+                  <Link href="#contact" className="text-blue-600 hover:text-blue-800">
                     Contact
                   </Link>
                 </li>

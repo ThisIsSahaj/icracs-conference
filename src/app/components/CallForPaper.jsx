@@ -109,7 +109,7 @@ export default function CallForPaper() {
   ]
 
   return (
-    <section className="w-full py-12 bg-white">
+    <section className="w-full py-12 bg-white" id="callforpaper">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center text-blue-600 mb-8">CALL FOR PAPERS</h2>
         <p className="text-xl text-center text-gray-700 mb-12">
